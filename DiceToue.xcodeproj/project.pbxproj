@@ -14,6 +14,7 @@
 		A252A49E1CFF09DA005803DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A252A49C1CFF09DA005803DC /* LaunchScreen.storyboard */; };
 		A252A4A91CFF09DA005803DC /* DiceToueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A252A4A81CFF09DA005803DC /* DiceToueTests.swift */; };
 		A252A4B41CFF09DB005803DC /* DiceToueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A252A4B31CFF09DB005803DC /* DiceToueUITests.swift */; };
+		A27CDB161CFF20A000615BA4 /* click_one.wav in Resources */ = {isa = PBXBuildFile; fileRef = A27CDB151CFF20A000615BA4 /* click_one.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A252A4AF1CFF09DA005803DC /* DiceToueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceToueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A252A4B31CFF09DB005803DC /* DiceToueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceToueUITests.swift; sourceTree = "<group>"; };
 		A252A4B51CFF09DB005803DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27CDB151CFF20A000615BA4 /* click_one.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = click_one.wav; path = ../../../../Downloads/click_one.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A252A49A1CFF09DA005803DC /* Assets.xcassets */,
 				A252A49C1CFF09DA005803DC /* LaunchScreen.storyboard */,
 				A252A49F1CFF09DA005803DC /* Info.plist */,
+				A27CDB151CFF20A000615BA4 /* click_one.wav */,
 			);
 			path = DiceToue;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					A252A48F1CFF09DA005803DC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = BQ6DV64DPF;
 					};
 					A252A4A31CFF09DA005803DC = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27CDB161CFF20A000615BA4 /* click_one.wav in Resources */,
 				A252A49E1CFF09DA005803DC /* LaunchScreen.storyboard in Resources */,
 				A252A49B1CFF09DA005803DC /* Assets.xcassets in Resources */,
 				A252A4991CFF09DA005803DC /* Main.storyboard in Resources */,
@@ -401,10 +406,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DiceToue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BILL.CO.TH.DiceToue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +420,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DiceToue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BILL.CO.TH.DiceToue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +495,7 @@
 				A252A4BA1CFF09DB005803DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A252A4BB1CFF09DB005803DC /* Build configuration list for PBXNativeTarget "DiceToueTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +504,7 @@
 				A252A4BD1CFF09DB005803DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A252A4BE1CFF09DB005803DC /* Build configuration list for PBXNativeTarget "DiceToueUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +513,7 @@
 				A252A4C01CFF09DB005803DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
